@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-container">
+    <section id="personal-info">
+      <h1>Personal Information</h1>
+      <img src="pic/ana.jfif" alt="Profile Picture" class="profile-pic">
+      <p><strong>Name:</strong> Anam Noman</p>
+      <p><strong>Contact:</strong> anum.noman93@gmail.com</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Cloud Applied Generative AI Engineer - Governor House</li>
+        <li>Bachelor of Science  -  University of Karachi</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript, TypeScript</li>
+        <li>Node.js</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </section>
+
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>Intern at WebDev Solutions </li>
+      </ul>
+    </section>
+
+    <div class="buttons">
+        <button id="toggle-education">Education</button>
+      <button id="toggle-skills">Skills</button>
+      <button id="toggle-experience">Work Experience</button>
+    </div>
+  </div>
+
+  <!-- Share and Download Buttons -->
+  <div id="actions">
+   <center> <button id="share-link">Share Resume</button></center>
+</div>
+
+</div>
+<footer class="footer" id="footer">
+    <div class="footer-content">
+       
+        <p>Contact: </p>
+        <div class="social-links">
+            <img src="pics/mail.jfif" alt="Email" style="width: 24px; height: 24px; vertical-align: middle;">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anum.noman93@gmail.com" target="_blank">Email</a>
+            <img src="pics/in.png" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;">
+            <a href="https://www.linkedin.com/in/anam-noman-83500991" target="_blank">LinkedIn</a>
+            <img src="pics/git.jfif" alt="LinkedIn" style="width: 24px; height: 24px; vertical-align: middle;">
+            <a href="https://github.com/Anam-Noman" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
+
+  <!-- Include jsPDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
